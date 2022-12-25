@@ -16,6 +16,7 @@ To run the shell type:
 
 A prompt of the form ">" will appear and then you can type commands like:
 > ls
+
 execute.c shell.tgz smsh.h smsh1 smsh1.c splitline.c
 
 > wc execute.c
