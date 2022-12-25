@@ -1,4 +1,4 @@
-#Code to compile every part - not asked in assignment
+#Code to compile every part
 all: part1 part2 part3
 
 #Makefile code to compile part 1, handles piping
