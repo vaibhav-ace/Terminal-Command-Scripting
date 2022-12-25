@@ -26,6 +26,7 @@ A prompt of the form ">" will appear and then you can type commands like:
 The shell is terminated by typing the Control-D key (which signals end of input).
 Right now, typing something like:
 > ls | wc
+
 will prompt an error. However, using C programming we can improve this.
 
 Piping can be observed by typing:
