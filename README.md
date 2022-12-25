@@ -7,7 +7,7 @@ The contents are C source files that implement a simple shell. The contents are:
 - execute.c - a set of helper functions for running processes within the program
 - splitline.c - some text processing utilities
 
-To compile these sources run:
+If you want to observe bash commands, in order to compile these sources run:
 
 gcc -o smsh1 smsh1.c splitline.c execute.c
 
@@ -24,6 +24,9 @@ A prompt of the form ">" will appear and then you can type commands like:
 > 37 113 725 execute.c
 
 The shell is terminated by typing the Control-D key (which signals end of input).
+Right now, typing something like:
+> ls | wc
+will prompt an error. However, using C programming we can improve this.
 
 Piping can be observed by typing:
 > make part1
