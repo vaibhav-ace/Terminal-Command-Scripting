@@ -1,7 +1,7 @@
 # Terminal-Command-Scripting
 
 A program to input Bash commands from the terminal and execute them using C instructions.
-The contents are C source files that implement a simple shell. The contents are:
+The contents are C source files that implement a simple shell. The content files include:
 - smsh.c - an implementation of a very simple shell program
 - smsh.h - a header file with function prototypes
 - execute.c - a set of helper functions for running processes within the program
